@@ -1,0 +1,6 @@
+{"strtok","tcstok","wcstok","mbstok","makepath","tmakepath","makepath",
+"wmakepath","splitpath","tsplitpath","wsplitpath","sscanf","swscanf","stscanf",
+"snscanf","snwscanf","sntscanf","itoa","itow","i64toa","i64tow","ui64toa",
+"ui64tot","ui64tow","ultoa","ultot","ultow","CharToOem","CharToOemA",
+"CharToOemW","OemToChar","OemToCharA","OemToCharW","CharToOemBuffA",
+"CharToOemBuffW"}

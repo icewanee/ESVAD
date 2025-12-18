@@ -1,0 +1,1 @@
+{'wsystem', 'popen', 'sprintf', 'strncat', 'snprintf', 'spawnl', 'execv', 'vsprintf', 'system', 'execvp', 'printf', 'execl', 'fopen', 'vsnprintf', 'execlp', 'memcpy', 'open', 'strcat'}

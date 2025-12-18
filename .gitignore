@@ -1,0 +1,16 @@
+juliet_dataset/testcases
+juliet_dataset/testcasesupport
+juliet_dataset/testcases_ir
+juliet_dataset/testcases_ir_normalized
+juliet_dataset/testcases_cpg
+juliet_dataset/process_dev_juliet.sh
+config.dev_juliet.json
+config.json
+__pycache__
+Resource
+Results
+realsard_dataset/testcases_cpg
+realsard_dataset/Resource
+realsard_dataset/Results
+realsard_dataset/codes
+realsard_dataset/SARDMETA.json

@@ -1,0 +1,8 @@
+[
+    r';',          # ตัวคั่นคำสั่ง
+    r'\|',         # Pipe (ต้อง escape เพราะเป็นอักขระพิเศษของ regex)
+    r'&&',         # AND แบบมีเงื่อนไข
+    r'\|\|',       # OR แบบมีเงื่อนไข (ต้อง escape)
+    r'`',          # Command substitution (backticks)
+    r'\$\('
+]

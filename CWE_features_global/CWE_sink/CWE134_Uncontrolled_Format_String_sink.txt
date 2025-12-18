@@ -1,0 +1,1 @@
+{'vfwprintf', 'printf', 'sprintf','vprintf', 'fopen', 'vsnprintf', 'strncat', 'snprintf', 'memcpy', 'vsprintf', 'vsnwprintf', 'vfprintf','open', 'vswprintf', 'snwprintf','strcpy', 'fprintf'}

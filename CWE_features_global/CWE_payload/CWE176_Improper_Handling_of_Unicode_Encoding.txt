@@ -1,0 +1,5 @@
+[
+    r'%c0%af',       # Overlong 2-byte encoding ของ '/'
+    r'%c1%9c',       # Overlong 2-byte encoding ของ '\'
+    r'%e0%80%af',    # Overlong 3-byte encoding ของ '/'
+]

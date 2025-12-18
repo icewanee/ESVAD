@@ -1,0 +1,1 @@
+{"scanf","wscanf","tscanf","gets","getts","gettws"}

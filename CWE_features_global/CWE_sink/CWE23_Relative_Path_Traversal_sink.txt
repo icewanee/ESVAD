@@ -1,0 +1,1 @@
+{'fopen', 'wfopen', 'strncat', 'sopen', 'memcpy', 'CreateFileW', 'CreateFileA', 'wopen', 'open', 'strcat', 'wsopen'}

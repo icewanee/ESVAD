@@ -1,0 +1,7 @@
+[
+    r'\.dll',        # นามสกุลไฟล์ Dynamic Link Library ของ Windows
+    r'\.so',         # นามสกุลไฟล์ Shared Object ของ Linux
+    r'\.exe',        # นามสกุลไฟล์ Executable ของ Windows
+    r'cmd',          # การอ้างอิงถึง Command Prompts
+    r'\/bin\/sh'     # การเรียกใช้ Shell ของ Linux
+]

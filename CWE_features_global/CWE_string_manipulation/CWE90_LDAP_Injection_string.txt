@@ -1,0 +1,1 @@
+{'vsprintf', 'sprintf', 'wcsncat', 'vsnprintf', 'strncat', 'snprintf', 'strcat', 'wcscat'}

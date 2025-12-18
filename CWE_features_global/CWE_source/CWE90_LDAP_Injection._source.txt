@@ -1,0 +1,2 @@
+{'getenv', 'wgetenv', 'fgetws', 'gets',
+ 'fopen', 'read', 'fgets', 'accept', 'recv'}

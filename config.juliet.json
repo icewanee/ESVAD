@@ -1,0 +1,39 @@
+{
+  "base_path": "juliet_dataset",
+  "known_cwe_list": [
+    "CWE78",
+    "CWE134",
+    "CWE190",
+    "CWE401",
+    "CWE415",
+    "CWE690",
+    "CWE762",
+    "CWE789"
+  ],
+  "unseen_cwe_list": ["CWE90", "CWE122", "CWE590"],
+  "cwe_directory_pattern": "_*",
+  "specialist_models_training": {
+    "epochs": 100,
+    "batch_size": 32,
+    "accumulation_steps": 1,
+    "learning_rate": 5e-5,
+    "patience": 10
+  },
+  "metric_learning_training": {
+    "epochs": 300,
+    "learning_rate_head": 5e-5,
+    "learning_rate_gat": 8e-6,
+    "batch_size": 32,
+    "m_samples": 4,
+    "patience": 5
+  },
+  "tune_threshold": {
+    "batch_size": 32
+  },
+  "create_classifier": {
+    "batch_size": 32
+  },
+  "validate_anomaly": {
+    "batch_size": 32
+  }
+}
