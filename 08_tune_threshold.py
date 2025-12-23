@@ -1,6 +1,7 @@
 import os
 import json
 import torch
+import math
 import torch.nn as nn
 from torch_geometric.loader import DataLoader
 from torch_geometric.nn import GATConv, global_max_pool
@@ -234,7 +235,7 @@ def main_tuner():
         acc_val_k = np.mean(np.array(dist_val_k) <= t) if dist_val_k else 0
         acc_ts_u = np.mean(np.array(dist_ts_u) > t) if dist_ts_u else 0
 
-        score = acc_tr_k + acc_tr_u
+        score = math.sqrt(acc_tr_k * acc_tr_u)
 
         results.append(
             {
